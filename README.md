@@ -5,64 +5,57 @@ This project analyzes the Boston Airbnb dataset to explore seasonal pricing, ava
 
 Business Questions
 
-How do prices and availability vary by season and weekends?
+  How do prices and availability vary by season and weekends?
 
-Which neighborhoods offer the best value and accessibility?
+  Which neighborhoods offer the best value and accessibility?
 
-Which areas provide affordable, high-rated “scenic” stays?
+  Which areas provide affordable, high-rated “scenic” stays?
 
-(Optional) Can basic listing features predict Airbnb prices?
 
 Dataset
 
-listings.csv – Listing details (price, location, room type, review scores)
+  listings.csv – Listing details (price, location, room type, review scores)
 
-calendar.csv – Daily availability and pricing
+  calendar.csv – Daily availability and pricing
 
-reviews.csv – Guest reviews (not used in analysis)
+  reviews.csv – Guest reviews (not used in analysis)
 
 Data Cleaning & Processing
 
-Converted price fields to numeric
+   Converted price fields to numeric
 
-Extracted month, day, season from dates
+  Extracted month, day, season from dates
 
-Created flags for weekend vs weekday and availability
+  Created flags for weekend vs weekday and availability
 
-Filtered high-quality listings (review score ≥ 90)
+  Filtered high-quality listings (review score ≥ 90)
 
 Key Findings
 
-Summer and Fall have the highest prices; Winter has more availability
+   Summer and Fall have the highest prices; Winter has more availability
 
-Weekends are generally more expensive than weekdays
+  Weekends are generally more expensive than weekdays
 
-Central neighborhoods with high listing density offer better booking flexibility
+  Central neighborhoods with high listing density offer better booking flexibility
 
-Scenic, high-quality stays are more affordable in Winter and Spring
+  Scenic, high-quality stays are more affordable in Winter and Spring
 
 Optional Price Prediction
 
-Built a linear regression model using bedrooms, bathrooms, property, and room type
+   Built a linear regression model using bedrooms, bathrooms, property, and room type
 
-Model explains ~42% of price variance, indicating location and seasonality are major factors
+   Model explains ~42% of price variance, indicating location and seasonality are major factors
 
 Visualizations
 
-Seasonal pricing and availability charts
+  Seasonal pricing and availability charts
 
-Weekend vs weekday comparisons
+  Weekend vs weekday comparisons
 
-Neighborhood density and scenic stay affordability
+  Neighborhood density and scenic stay affordability
 
 Tools
 
-Python, Pandas, NumPy, Matplotlib, Scikit-learn
+  Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
-How to Run
-pip install pandas numpy matplotlib scikit-learn
-jupyter notebook Boston_Airbnb.ipynb
-
-Author
-
-Moli Jangada – Udacity Data Scientist Nanodegree
+ 
